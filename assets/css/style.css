@@ -19,10 +19,11 @@
 
   header {
     background-color: bisque
-    width:1180px;
+    width: 1180px;
     height: 75px;
-    padding:10px;
+    padding: 10px;
     border: 1px solid black;
+    margin-bottom: 10px;
   }
 
   footer {
@@ -31,6 +32,7 @@
     height: 75px;
     padding: 10px;
     border: 1px solid black;
+    margin-top: 10px;
   }
 
   main {
