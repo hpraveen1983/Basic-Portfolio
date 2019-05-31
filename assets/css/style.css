@@ -56,6 +56,38 @@
     font-size: 30px;
 }
 
-#links {
-    float: right;
+#contact {
+    height: 75px;
+    width: 100px;
+    border: 1px solid black;
+    position: absolute;
+    right:205px;
+    top: 25px;
+    background-color: white;
+    color:aqua;
+    text-align: center;
+}
+
+#portfolio {
+    height: 75px;
+    width: 100px;
+    border: 1px solid black;
+    position: absolute;
+    right:305px;
+    top: 25px;
+    background-color: white;
+    color:aqua;
+    text-align: center;
+}
+
+#about {
+    height: 75px;
+    width: 100px;
+    border: 1px solid black;
+    position: absolute;
+    right:405px;
+    top: 25px;
+    background-color: white;
+    color:aqua;
+    text-align: center;
 }
