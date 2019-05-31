@@ -41,3 +41,21 @@
       height: 400px;
       margin: auto;
     }
+
+#name {
+    height: 75px;
+    width: 220px;
+    border: 1px solid black;
+    position: absolute;
+    left:205px;
+    top: 25px;
+    background-color: aqua;
+    color: white;
+    font-weight: bold;
+    text-align: justify;
+    font-size: 30px;
+}
+
+#links {
+    float: right;
+}
