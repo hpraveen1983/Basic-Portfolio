@@ -45,7 +45,7 @@
 
 #name {
     height: 75px;
-    width: 220px;
+    width: 200px;
     border: 1px solid black;
     position: absolute;
     left:205px;
@@ -53,8 +53,8 @@
     background-color: aqua;
     color: white;
     font-weight: bold;
-    text-align: justify;
-    font-size: 30px;
+    font-size: 25px;
+    padding: 5px;
 }
 
 #contact {
@@ -65,7 +65,7 @@
     right:205px;
     top: 25px;
     background-color: white;
-    text-align: center;
+    padding: 15px;
 }
 
 #portfolio {
@@ -77,7 +77,7 @@
     top: 25px;
     background-color: white;
     color:aqua;
-    text-align: center;
+    padding: 15px;
 }
 
 #about {
@@ -89,5 +89,33 @@
     top: 25px;
     background-color: white;
     color:aqua;
-    text-align: center;
+    padding: 15px;
 }
+
+img {
+
+}
+
+hr { 
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  } 
+
+  h1 {
+    font-size: 30px;
+    height: 75px;
+    width: 960px;
+    border-bottom: 1px solid black;
+    position: absolute;
+    left:203px;
+    top: 130px;
+    background-color: white;
+    color:aqua;
+    padding: 15px;
+    
+  }
