@@ -42,7 +42,7 @@
       height: 400px;
       margin: auto;
       padding: 10px;
-    }
+  }
 
 #name {
     height: 75px;
@@ -94,7 +94,7 @@
 }
 
 img {
-
+  float: left;
 }
 
 hr { 
