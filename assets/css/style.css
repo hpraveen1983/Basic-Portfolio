@@ -90,9 +90,9 @@ main {
   position: absolute;
   right: 405px;
   top: 25px;
-  background-color: white;
-  color: aqua;
+  /*background-color: white;*/
   padding: 15px;
+  
 }
 
 img {
@@ -123,7 +123,9 @@ h1 {
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-p {}
+a {
+  text-decoration: none;
+}
 
 #form {
   position: absolute;
