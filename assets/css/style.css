@@ -25,7 +25,7 @@ header {
   padding: 10px;
   border: 1px solid black;
   margin-bottom: 10px;
-  color: aqua;
+  /*color: aqua;*/
 }
 
 footer {
@@ -36,6 +36,7 @@ footer {
   border: 1px solid black;
   margin-top: 10px;
   align-content: center;
+  border-top: 5px solid rgb(10, 168, 168);
 }
 
 main {
@@ -53,11 +54,12 @@ main {
   position: absolute;
   left: 205px;
   top: 25px;
-  background-color: aqua;
+  background-color: rgb(10, 168, 168);
   color: white;
   font-weight: bold;
   font-size: 25px;
   padding: 5px;
+  text-align: center;
 }
 
 #contact {
@@ -118,7 +120,7 @@ h1 {
   left: 203px;
   top: 110px;
   background-color: white;
-  color: aqua;
+  color:  rgb(10, 168, 168);
   padding: 15px;
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -135,7 +137,7 @@ a {
 
 input[type=submit] {
   width: 150px;
-  background-color: aqua;
+  background-color:  rgb(10, 168, 168);
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
