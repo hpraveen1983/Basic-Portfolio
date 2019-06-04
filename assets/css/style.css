@@ -28,7 +28,6 @@ header {
   border-bottom: 1px solid black;
   margin-bottom: 10px;
   /*color: aqua;*/
-  
 }
 
 footer {
@@ -50,6 +49,7 @@ main {
   height: 400px;
   margin: auto;
   padding: 10px;
+  font-size: 20px;
 }
 
 #name {
@@ -110,17 +110,6 @@ main {
   text-align: center;
 }
 
-
-/*hr {
-  display: block;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
-}*/
-
 h1 {
   font-size: 30px;
   height: 60px;
@@ -160,7 +149,6 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-
 #pp {
   position: absolute;
   bottom: 120px;
@@ -173,33 +161,16 @@ input[type=submit]:hover {
   padding-top: 30px;
 }
 
-/*#summary {
-  padding: 10px;
-  text-align: justify;
-  font-size: 16px;
-}*/
-
 #sid {
   position: absolute;
   bottom: -50px;
   right: 120px;
 }
 
-/*#ppi {
-  padding: 10px;
-}*/
-
 fname {
   color: rgb(10, 168, 168);
 }
 
-/*img {
-  position: absolute;
-  top:190px;
-  left: 220px;  
-}*/
-
 img {
   float: left;
 }
-
