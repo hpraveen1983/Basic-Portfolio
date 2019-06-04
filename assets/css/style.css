@@ -23,9 +23,12 @@ header {
   width: 1200px;
   height: 75px;
   padding: 10px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   margin-bottom: 10px;
   /*color: aqua;*/
+  
 }
 
 footer {
@@ -33,7 +36,9 @@ footer {
   width: 1200px;
   height: 75px;
   padding: 10px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   margin-top: 10px;
   align-content: center;
   border-top: 5px solid rgb(10, 168, 168);
@@ -50,7 +55,9 @@ main {
 #name {
   height: 75px;
   width: 200px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   position: absolute;
   left: 205px;
   top: 25px;
@@ -65,43 +72,46 @@ main {
 #contact {
   height: 75px;
   width: 100px;
-  border: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   position: absolute;
   right: 205px;
   top: 25px;
-  background-color: white;
+  /*background-color: white;*/
   padding: 15px;
+  text-align: center;
 }
 
 #portfolio {
   height: 75px;
   width: 100px;
-  border: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  /*border: 1px solid black;*/
   position: absolute;
   right: 305px;
   top: 25px;
-  background-color: white;
-  color: aqua;
+  /*background-color: white;*/
   padding: 15px;
+  text-align: center;
 }
 
 #about {
   height: 75px;
   width: 100px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   position: absolute;
   right: 405px;
   top: 25px;
   /*background-color: white;*/
   padding: 15px;
-  
+  text-align: center;
 }
 
-img {
-  float: left;
-}
 
-hr {
+/*hr {
   display: block;
   margin-top: 30px;
   margin-bottom: 50px;
@@ -109,18 +119,18 @@ hr {
   margin-right: auto;
   border-style: inset;
   border-width: 1px;
-}
+}*/
 
 h1 {
   font-size: 30px;
   height: 60px;
   width: 960px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(10, 168, 168);
   position: absolute;
   left: 203px;
   top: 110px;
   background-color: white;
-  color:  rgb(10, 168, 168);
+  color: rgb(10, 168, 168);
   padding: 15px;
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -137,7 +147,7 @@ a {
 
 input[type=submit] {
   width: 150px;
-  background-color:  rgb(10, 168, 168);
+  background-color: rgb(10, 168, 168);
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -150,9 +160,6 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-#textbox {
-  background-color: antiquewhite;
-}
 
 #pp {
   position: absolute;
@@ -166,11 +173,11 @@ input[type=submit]:hover {
   padding-top: 30px;
 }
 
-#summary {
+/*#summary {
   padding: 10px;
   text-align: justify;
   font-size: 16px;
-}
+}*/
 
 #sid {
   position: absolute;
@@ -178,6 +185,21 @@ input[type=submit]:hover {
   right: 120px;
 }
 
-#ppi {
+/*#ppi {
   padding: 10px;
+}*/
+
+fname {
+  color: rgb(10, 168, 168);
 }
+
+/*img {
+  position: absolute;
+  top:190px;
+  left: 220px;  
+}*/
+
+img {
+  float: left;
+}
+
